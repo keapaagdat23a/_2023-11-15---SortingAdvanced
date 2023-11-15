@@ -50,9 +50,4 @@ public class Marsvin implements Comparable {
   public String toString() {
     return "Navn: " + navn + ". Race: " + race + ". Foder: " + foderIGram + "\n";
   }
-
-  @Override
-  public boolean isDrinkable() {
-    return false;
-  }
 }
